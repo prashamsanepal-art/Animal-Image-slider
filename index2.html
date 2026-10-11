@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashamsa Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="slider.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Animal Gallery Image Slider</h1>
+        <p>Journey into the Animal Kingdom</p>
+    </header>
+
+    <main>
+        <section class="slider" aria-label="Prashamsa Image Slider">
+            <div class="slider-viewport">
+                <div class="slider-track">
+                    <div class="slide">
+                        <img src="Images/elephant.jpg"
+                            alt="Elephant walking in its natural habitat"
+                            draggable="false">
+                        <div class="caption">
+                            <h2>Elephant</h2>
+                            <p>Gentle giants, carrying wisdom and strength through the wild.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="Images/lion.jpg"
+                            alt="Lion resting in the African savanna"
+                            draggable="false">
+                        <div class="caption">
+                            <h2>Lion</h2>
+                            <p>Bold and brave, the mighty symbol of the wild.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="Images/rhino.jpg"
+                            alt="Rhinoceros standing in a grassy habitat"
+                            draggable="false">
+                        <div class="caption">
+                            <h2>Rhino</h2>
+                            <p>Powerful and resilient, a remarkable creature of nature.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img
+                            src="Images/tiger.jpg"
+                            alt="Tiger displaying its orange ccoat and black strips"
+                            draggable="false">
+                        <div class="caption">
+                            <h2>Tiger</h2>
+                            <p>Silent footsteps, fearless spirit, beauty of the wild.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>               
+            <button class="slider-button previous"
+                type="button"
+                aria-label="Previous slide">
+              &#10094;
+            </button>
+            <button class="slider-button next"
+                type="button"
+                aria-label="Next slide">
+                &#10095;
+            </button>
+            <div class="slider-dots" aria-label="Slide"></div>
+            <p class="slide-counter" aria-live="polite">
+                Image 1 of 4
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>Animal Gallery Image Slider| Built with HTML, CSS and JavaScript</p>
+    </footer>
+</body>
+</html>
